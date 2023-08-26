@@ -1,0 +1,27 @@
+
+http://localhost:3000
+
+###
+
+GET  http://localhost:3000/routes
+
+###
+GET  http://localhost:3000/routes/64e6cfee8e319f7aa55b667a
+
+###
+
+POST http://localhost:3000/routes
+Content-Type: application/json
+
+{
+    "name": "route test 1",
+    "source_id": "ChIJtWz_QyG-pgARkk6_BgFuNlE",
+    "destination_id": "ChIJh61XVuyvoAARpqOjiBdfc2k"
+}
+
+###
+
+GET http://localhost:3000/places?text=puc coreu
+###
+ 
+GET http://localhost:3000/directions?originId=ChIJl-wArPqWpgARBSSCS6XRNo4&destinationId=ChIJxzZvpXX1oQAR4oSg6EuCKzU

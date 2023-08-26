@@ -22,6 +22,7 @@ Content-Type: application/json
 ###
 
 GET http://localhost:3000/places?text=puc coreu
+
 ###
  
 GET http://localhost:3000/directions?originId=ChIJl-wArPqWpgARBSSCS6XRNo4&destinationId=ChIJxzZvpXX1oQAR4oSg6EuCKzU
